@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use o IntelliSense para descobrir quais atributos existem para depuração C #
+            // Use o cursor para a descrição dos atributos existentes
+            // Para mais informações visite https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // Se você alterou as estruturas de destino, certifique-se de atualizar o caminho do programa.
+            "program": "${workspaceFolder}/GameTop/bin/Debug/netcoreapp3.1/GameTop.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/GameTop",
+            //Para obter mais informações sobre o campo 'console', see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
